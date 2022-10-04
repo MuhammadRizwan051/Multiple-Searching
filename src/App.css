@@ -1,0 +1,38 @@
+* {
+    margin: 0;
+    padding: 0;
+  }
+  .App {
+    text-align: center;
+  }
+  .header {
+    background-color: cornflowerblue;
+    color: white;
+    padding: 10px;
+  }
+  li {
+    background-color: cornflowerblue;
+    color: black;
+    margin: 5px 0;
+  }
+  .parent {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .pcard {
+    width: 300px;
+    margin: 2px;
+    border: 1px solid grey;
+  }
+  .bgLight {
+    margin: 2px;
+  }
+  .bg-dark a{
+    text-decoration: none;
+    cursor: pointer;
+    font-style: oblique;
+  }
+  .bg-dark a:hover{
+    color: aqua !important;
+    text-decoration: underline;
+  }
